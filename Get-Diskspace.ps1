@@ -65,17 +65,17 @@
   .EXAMPLE 
   Get disk information from computer MYSERVER
     
-  Get-Diskpace.ps1 -ComputerName MYSERVER
+  Get-Diskspace.ps1 -ComputerName MYSERVER
 
   .EXAMPLE
   Get disk information from computer MYSERVER in MB
 
-  Get-Diskpace.ps1 -ComputerName MYSERVER -Unit MB
+  Get-Diskspace.ps1 -ComputerName MYSERVER -Unit MB
 
   .EXAMPLE
   Get disk information from all Exchange servers and send html email
 
-  Get-Diskpace.ps1 -AllExchangeServer -SendMail -MailFrom postmaster@sedna-inc.com -MailTo exchangeadmin@sedna-inc.com -MailServer mail.sedna-inc.com
+  Get-Diskspace.ps1 -AllExchangeServer -SendMail -MailFrom postmaster@sedna-inc.com -MailTo exchangeadmin@sedna-inc.com -MailServer mail.sedna-inc.com
 
 #>
 
